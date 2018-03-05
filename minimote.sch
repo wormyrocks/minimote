@@ -3976,14 +3976,12 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100nF"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RN1" library="resistor-array" deviceset="742-16" device="NS" value="100k"/>
-<part name="U$3" library="minimote" deviceset="EDGEUSB" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
 <part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100"/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="1.5k"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
-<part name="U$4" library="minimote" deviceset="AZ23C3V6" device=""/>
 <part name="U$5" library="minimote" deviceset="TOUCHPAD" device=""/>
 <part name="U$6" library="minimote" deviceset="TOUCHPAD" device=""/>
 <part name="U$7" library="minimote" deviceset="TOUCHPAD" device=""/>
@@ -3993,6 +3991,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <part name="U$11" library="minimote" deviceset="TOUCHPAD" device=""/>
 <part name="U$12" library="minimote" deviceset="TOUCHPAD" device=""/>
 <part name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
+<part name="U$13" library="minimote" deviceset="EDGEUSB" device=""/>
+<part name="U$4" library="minimote" deviceset="AZ23C3V6" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4050,14 +4050,12 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <instance part="C2" gate="G$1" x="48.26" y="76.2"/>
 <instance part="GND7" gate="1" x="43.18" y="71.12"/>
 <instance part="RN1" gate="G$1" x="149.86" y="63.5"/>
-<instance part="U$3" gate="G$1" x="116.84" y="73.66"/>
 <instance part="SUPPLY7" gate="G$1" x="101.6" y="78.74"/>
 <instance part="R11" gate="G$1" x="91.44" y="76.2"/>
 <instance part="R12" gate="G$1" x="101.6" y="73.66"/>
 <instance part="GND8" gate="1" x="96.52" y="68.58"/>
 <instance part="R13" gate="G$1" x="76.2" y="78.74" rot="R90"/>
 <instance part="SUPPLY8" gate="G$1" x="76.2" y="83.82"/>
-<instance part="U$4" gate="G$1" x="81.28" y="68.58" rot="R180"/>
 <instance part="U$5" gate="G$1" x="200.66" y="83.82" rot="R180"/>
 <instance part="U$6" gate="G$1" x="200.66" y="73.66" rot="R180"/>
 <instance part="U$7" gate="G$1" x="200.66" y="63.5" rot="R180"/>
@@ -4067,6 +4065,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <instance part="U$11" gate="G$1" x="200.66" y="22.86" rot="R180"/>
 <instance part="U$12" gate="G$1" x="200.66" y="12.7" rot="R180"/>
 <instance part="D6" gate="G$1" x="160.02" y="22.86" rot="R180"/>
+<instance part="U$13" gate="G$1" x="116.84" y="73.66"/>
+<instance part="U$4" gate="G$1" x="81.28" y="68.58" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4110,15 +4110,15 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="43.18" y="73.66"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="GND"/>
 <wire x1="109.22" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="U$4" gate="G$1" pin="AA"/>
 <wire x1="81.28" y1="66.04" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="63.5" x2="91.44" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="63.5" x2="91.44" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
 <junction x="96.52" y="71.12"/>
+<pinref part="U$13" gate="G$1" pin="GND"/>
+<pinref part="U$4" gate="G$1" pin="AA"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -4177,18 +4177,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <label x="83.82" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="134.62" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="147.32" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
-<junction x="137.16" y="33.02"/>
-<wire x1="147.32" y1="33.02" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
-<junction x="147.32" y="33.02"/>
-<pinref part="D6" gate="G$1" pin="C"/>
-<wire x1="160.02" y1="33.02" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R7" gate="G$1" pin="1"/>
 <label x="116.84" y="33.02" size="1.778" layer="95"/>
 <wire x1="124.46" y1="33.02" x2="116.84" y2="33.02" width="0.1524" layer="91"/>
@@ -4204,9 +4192,9 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="86.36" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
 <label x="60.96" y="76.2" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="K1"/>
 <wire x1="86.36" y1="68.58" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <junction x="86.36" y="76.2"/>
+<pinref part="U$4" gate="G$1" pin="K1"/>
 </segment>
 </net>
 <net name="D_P" class="0">
@@ -4222,8 +4210,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <wire x1="76.2" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
 <junction x="76.2" y="73.66"/>
 <label x="60.96" y="73.66" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="K2"/>
 <wire x1="76.2" y1="68.58" x2="76.2" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="K2"/>
 </segment>
 </net>
 <net name="TOUCH2" class="0">
@@ -4256,18 +4244,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="IC1" gate="IC1" pin="(PCINT3/ADC3/AIN10/TOCC2/T0/XCK0/SCK)PA3"/>
 <wire x1="78.74" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
 <label x="83.82" y="22.86" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="134.62" y1="15.24" x2="137.16" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="147.32" y1="15.24" x2="137.16" y2="15.24" width="0.1524" layer="91"/>
-<junction x="137.16" y="15.24"/>
-<pinref part="D6" gate="G$1" pin="A"/>
-<wire x1="160.02" y1="20.32" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
-<junction x="147.32" y="15.24"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
@@ -4321,22 +4297,6 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <pinref part="IC1" gate="IC1" pin="(PCINT7/ADC7/TOCC6/ICP1/TXD0/SS)PA7"/>
 <wire x1="78.74" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
 <label x="83.82" y="12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="142.24" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="25.4" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="137.16" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
-<junction x="137.16" y="25.4"/>
-<pinref part="D5" gate="G$1" pin="C"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="142.24" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
-<junction x="142.24" y="25.4"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="147.32" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
-<junction x="142.24" y="22.86"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="1"/>
@@ -4400,8 +4360,8 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="V_USB"/>
-<pinref part="U$3" gate="G$1" pin="VBUS"/>
 <wire x1="101.6" y1="78.74" x2="109.22" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -4440,15 +4400,15 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <net name="N$8" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="U$3" gate="G$1" pin="D-"/>
 <wire x1="96.52" y1="76.2" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="D+"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U$13" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="PAD4" class="0">
@@ -4594,6 +4554,52 @@ USE AT YOUR OWN RISK!&lt;p&gt;
 <junction x="157.48" y="53.34"/>
 <pinref part="RN1" gate="G$1" pin="10"/>
 <junction x="157.48" y="55.88"/>
+</segment>
+</net>
+<net name="N$123" class="0">
+<segment>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="134.62" y1="15.24" x2="137.16" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="147.32" y1="15.24" x2="137.16" y2="15.24" width="0.1524" layer="91"/>
+<junction x="137.16" y="15.24"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="160.02" y1="20.32" x2="160.02" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="15.24" x2="147.32" y2="15.24" width="0.1524" layer="91"/>
+<junction x="147.32" y="15.24"/>
+</segment>
+</net>
+<net name="N$124" class="0">
+<segment>
+<wire x1="142.24" y1="22.86" x2="137.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="25.4" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="25.4" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="137.16" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
+<junction x="137.16" y="25.4"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="142.24" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
+<junction x="142.24" y="25.4"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="147.32" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<junction x="142.24" y="22.86"/>
+</segment>
+</net>
+<net name="N$125" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="134.62" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="147.32" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
+<junction x="137.16" y="33.02"/>
+<wire x1="147.32" y1="33.02" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
+<junction x="147.32" y="33.02"/>
+<pinref part="D6" gate="G$1" pin="C"/>
+<wire x1="160.02" y1="33.02" x2="160.02" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

@@ -643,6 +643,9 @@ Dimensional Drawing</description>
 <smd name="DM" x="4.953" y="6.0325" dx="1.27" dy="12.065" layer="1"/>
 <smd name="GND" x="9.8425" y="6.35" dx="1.27" dy="12.7" layer="1"/>
 </package>
+<package name="TPAD">
+<smd name="P$1" x="0" y="0" dx="5" dy="5" layer="1"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
@@ -945,9 +948,6 @@ design rules under a new name.</description>
 <element name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="2k" x="-39.37" y="43.18">
 <attribute name="PROD_ID" value="RES-07851" x="-39.37" y="43.18" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="2k" x="-43.18" y="43.18">
-<attribute name="PROD_ID" value="RES-07851" x="-43.18" y="43.18" size="1.778" layer="27" display="off"/>
-</element>
 <element name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="4k7" x="-46.99" y="43.18">
 <attribute name="PROD_ID" value="RES-07851" x="-46.99" y="43.18" size="1.778" layer="27" display="off"/>
 </element>
@@ -980,7 +980,7 @@ design rules under a new name.</description>
 <element name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="100nF" x="-102.87" y="-43.18">
 <attribute name="PROD_ID" value="CAP-11015" x="-102.87" y="-43.18" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RN1" library="resistor-array" package="742-16NS" value="" x="-100.33" y="-48.26"/>
+<element name="RN1" library="resistor-array" package="742-16NS" value="100k" x="-100.33" y="-48.26"/>
 <element name="U$3" library="minimote" package="USBPCB" value="EDGEUSB" x="-119.38" y="-49.53"/>
 <element name="R11" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="100" x="-116.84" y="-53.34">
 <attribute name="PROD_ID" value="RES-07851" x="-116.84" y="-53.34" size="1.778" layer="27" display="off"/>
@@ -992,6 +992,14 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-07851" x="-116.84" y="-60.96" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U$4" library="minimote" package="SOT23" value="AZ23C3V6" x="53.34" y="39.37"/>
+<element name="U$5" library="minimote" package="TPAD" value="TOUCHPAD" x="-111.76" y="-66.04"/>
+<element name="U$6" library="minimote" package="TPAD" value="TOUCHPAD" x="-111.76" y="-72.39"/>
+<element name="U$7" library="minimote" package="TPAD" value="TOUCHPAD" x="-111.76" y="-78.74"/>
+<element name="U$8" library="minimote" package="TPAD" value="TOUCHPAD" x="-111.76" y="-85.09"/>
+<element name="U$9" library="minimote" package="TPAD" value="TOUCHPAD" x="-111.76" y="-91.44"/>
+<element name="U$10" library="minimote" package="TPAD" value="TOUCHPAD" x="-111.76" y="-97.79"/>
+<element name="U$11" library="minimote" package="TPAD" value="TOUCHPAD" x="-111.76" y="-104.14"/>
+<element name="U$12" library="minimote" package="TPAD" value="TOUCHPAD" x="-111.76" y="-110.49"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1069,11 +1077,6 @@ design rules under a new name.</description>
 <wire x1="-117.69" y1="-60.96" x2="52.39" y2="38.27" width="0" layer="19" extent="1-1"/>
 <wire x1="-117.69" y1="-57.15" x2="-117.69" y2="-60.96" width="0" layer="19" extent="1-1"/>
 <wire x1="-54.61" y1="5.89" x2="-117.69" y2="-57.15" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="TOUCH1">
-<contactref element="IC1" pad="13"/>
-<contactref element="RN1" pad="1"/>
-<wire x1="-54.61" y1="11.89" x2="-103.13" y2="-49.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TOUCH2">
 <contactref element="IC1" pad="12"/>
@@ -1196,6 +1199,28 @@ design rules under a new name.</description>
 <contactref element="U$3" pad="DP"/>
 <contactref element="R12" pad="2"/>
 <wire x1="-112.268" y1="-43.4975" x2="-115.99" y2="-57.15" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PAD1">
+<contactref element="RN1" pad="16"/>
+</signal>
+<signal name="PAD0">
+<contactref element="U$5" pad="P$1"/>
+<contactref element="RN1" pad="1"/>
+<contactref element="IC1" pad="13"/>
+<wire x1="-103.13" y1="-49.16" x2="-111.76" y2="-66.04" width="0" layer="19" extent="1-1"/>
+<wire x1="-54.61" y1="11.89" x2="-103.13" y2="-49.16" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="PAD2">
+</signal>
+<signal name="PAD3">
+</signal>
+<signal name="PAD5">
+</signal>
+<signal name="PAD6">
+</signal>
+<signal name="PAD7">
+</signal>
+<signal name="PAD4">
 </signal>
 </signals>
 </board>
