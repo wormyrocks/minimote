@@ -5572,7 +5572,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="2k"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-LEDGER" device="" package3d_urn="urn:adsk.eagle:package:37121/1"/>
-<part name="U$1" library="minimote" deviceset="SI2301" device=""/>
+<part name="Q$1" library="minimote" deviceset="SI2301" device=""/>
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
@@ -5638,7 +5638,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="SUPPLY4" gate="G$1" x="58.42" y="-10.16"/>
 <instance part="FRAME1" gate="G$1" x="-40.64" y="-40.64"/>
 <instance part="FRAME1" gate="G$2" x="289.56" y="-40.64"/>
-<instance part="U$1" gate="G$1" x="20.32" y="83.82" smashed="yes" rot="R90">
+<instance part="Q$1" gate="G$1" x="20.32" y="83.82" smashed="yes" rot="R90">
 <attribute name="VALUE" x="21.59" y="92.71" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="21.59" y="95.25" size="1.778" layer="95" rot="R180"/>
 </instance>
@@ -5923,7 +5923,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </segment>
 <segment>
 <wire x1="5.08" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="S"/>
+<pinref part="Q$1" gate="G$1" pin="S"/>
 <label x="5.08" y="86.36" size="1.778" layer="95"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="86.36" x2="15.24" y2="86.36" width="0.1524" layer="91"/>
@@ -5970,7 +5970,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="G"/>
+<pinref part="Q$1" gate="G$1" pin="G"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="U$2" gate="G$1" pin="C"/>
 <wire x1="17.78" y1="81.28" x2="17.78" y2="76.2" width="0.1524" layer="91"/>
@@ -5979,7 +5979,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D"/>
+<pinref part="Q$1" gate="G$1" pin="D"/>
 <pinref part="D2" gate="G$1" pin="A2"/>
 </segment>
 </net>
