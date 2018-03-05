@@ -23,7 +23,7 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
@@ -615,7 +615,8 @@ Dimensional Drawing</description>
 <smd name="GND" x="9.8425" y="6.35" dx="1.27" dy="12.7" layer="1"/>
 </package>
 <package name="TPAD">
-<smd name="P$1" x="0" y="0" dx="5" dy="5" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="8" dy="8" layer="1"/>
+<text x="-3" y="-6" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 </library>

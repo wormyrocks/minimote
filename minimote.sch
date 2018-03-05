@@ -3247,7 +3247,8 @@ FRAME_LETTER</description>
 <smd name="GND" x="9.8425" y="6.35" dx="1.27" dy="12.7" layer="1"/>
 </package>
 <package name="TPAD">
-<smd name="P$1" x="0" y="0" dx="5" dy="5" layer="1"/>
+<smd name="P$1" x="0" y="0" dx="8" dy="8" layer="1"/>
+<text x="-3" y="-6" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
