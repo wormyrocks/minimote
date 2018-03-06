@@ -5588,7 +5588,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="BT1" gate="G$1" x="-17.78" y="30.48" rot="R270"/>
 <instance part="R8" gate="G$1" x="119.38" y="-22.86"/>
 <instance part="R12" gate="G$1" x="129.54" y="-2.54" rot="R270"/>
-<instance part="R7" gate="G$1" x="104.14" y="43.18"/>
+<instance part="R7" gate="G$1" x="109.22" y="48.26" rot="R90"/>
 <instance part="D4" gate="G$1" x="137.16" y="30.48"/>
 <instance part="D6" gate="G$1" x="147.32" y="27.94" rot="R180"/>
 <instance part="D7" gate="G$1" x="147.32" y="20.32"/>
@@ -5599,7 +5599,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="D1" gate="G$1" x="30.48" y="86.36" rot="R180"/>
 <instance part="J1" gate="G$1" x="40.64" y="-12.7"/>
 <instance part="SUPPLY1" gate="G$1" x="-5.08" y="48.26"/>
-<instance part="SUPPLY7" gate="G$1" x="109.22" y="48.26"/>
+<instance part="SUPPLY7" gate="G$1" x="109.22" y="53.34"/>
 <instance part="SUPPLY8" gate="G$1" x="129.54" y="2.54"/>
 <instance part="R11" gate="G$1" x="129.54" y="15.24"/>
 <instance part="R10" gate="G$1" x="129.54" y="25.4"/>
@@ -5709,13 +5709,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<wire x1="109.22" y1="48.26" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="S2" gate="G$1" pin="1"/>
-<junction x="109.22" y="43.18"/>
-<pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
 </segment>
@@ -5736,14 +5729,12 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="R4" gate="G$1" pin="2"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
 </segment>
+<segment>
+<pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="RST" class="0">
-<segment>
-<pinref part="IC1" gate="IC1" pin="(PCINT11/ADC9/RESET/DW)PB3"/>
-<wire x1="78.74" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
-<label x="83.82" y="43.18" size="1.778" layer="95"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-</segment>
 <segment>
 <wire x1="25.4" y1="-15.24" x2="33.02" y2="-15.24" width="0.1524" layer="91"/>
 <label x="25.4" y="-15.24" size="1.778" layer="95"/>
@@ -6180,6 +6171,15 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="IC1" pin="(PCINT11/ADC9/RESET/DW)PB3"/>
+<wire x1="78.74" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
+<junction x="109.22" y="43.18"/>
 </segment>
 </net>
 </nets>
