@@ -5506,6 +5506,176 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-IC-Memory" urn="urn:adsk.eagle:library:524">
+<description>&lt;h3&gt;SparkFun Memory ICs&lt;/h3&gt;
+This library contains memory ICs.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SO08" urn="urn:adsk.eagle:footprint:38833/1" library_version="1">
+<description>SOIC, 0.15 inch width</description>
+<wire x1="2.3368" y1="1.9463" x2="-2.3368" y2="1.9463" width="0.2032" layer="21"/>
+<wire x1="2.4368" y1="-1.9463" x2="2.7178" y2="-1.5653" width="0.2032" layer="21" curve="90"/>
+<wire x1="-2.7178" y1="1.4653" x2="-2.3368" y2="1.9463" width="0.2032" layer="21" curve="-90.023829"/>
+<wire x1="2.3368" y1="1.9463" x2="2.7178" y2="1.5653" width="0.2032" layer="21" curve="-90.030084"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.3368" y2="-1.9463" width="0.2032" layer="21" curve="90.060185"/>
+<wire x1="-2.3368" y1="-1.9463" x2="2.4368" y2="-1.9463" width="0.2032" layer="21"/>
+<wire x1="2.7178" y1="-1.5653" x2="2.7178" y2="1.5653" width="0.2032" layer="21"/>
+<wire x1="-2.667" y1="0.6096" x2="-2.667" y2="-0.6604" width="0.2032" layer="21" curve="-180"/>
+<wire x1="-2.7178" y1="1.4526" x2="-2.7178" y2="0.6096" width="0.2032" layer="21"/>
+<wire x1="-2.7178" y1="-1.6653" x2="-2.7178" y2="-0.6604" width="0.2032" layer="21"/>
+<rectangle x1="-2.159" y1="-3.302" x2="-1.651" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="-3.302" x2="-0.381" y2="-2.2733" layer="51"/>
+<rectangle x1="0.381" y1="-3.302" x2="0.889" y2="-2.2733" layer="51"/>
+<rectangle x1="1.651" y1="-3.302" x2="2.159" y2="-2.2733" layer="51"/>
+<rectangle x1="-0.889" y1="2.286" x2="-0.381" y2="3.302" layer="51"/>
+<rectangle x1="0.381" y1="2.286" x2="0.889" y2="3.302" layer="51"/>
+<rectangle x1="1.651" y1="2.286" x2="2.159" y2="3.302" layer="51"/>
+<rectangle x1="-2.159" y1="2.286" x2="-1.651" y2="3.302" layer="51"/>
+<smd name="1" x="-1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="2" x="-0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="5" x="1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="6" x="0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.8" dx="0.6" dy="1.2" layer="1"/>
+<text x="-3.175" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.81" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.002540625" layer="21">
+<vertex x="-2.69875" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.06375" curve="90"/>
+<vertex x="-3.33375" y="-2.38125" curve="90"/>
+<vertex x="-3.01625" y="-2.69875" curve="90"/>
+</polygon>
+</package>
+<package name="SO08-EIAJ" urn="urn:adsk.eagle:footprint:38834/1" library_version="1">
+<description>Fits EIAJ packages (wide version of the SOIC-8).</description>
+<wire x1="-2.362" y1="-2.565" x2="2.362" y2="-2.565" width="0.1524" layer="51"/>
+<wire x1="2.362" y1="-2.565" x2="2.362" y2="2.5396" width="0.2032" layer="21"/>
+<wire x1="2.362" y1="2.5396" x2="-2.362" y2="2.5396" width="0.1524" layer="51"/>
+<wire x1="-2.362" y1="2.5396" x2="-2.362" y2="-2.565" width="0.2032" layer="21"/>
+<smd name="1" x="-1.905" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="2" x="-0.635" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="3" x="0.635" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="4" x="1.905" y="-3.3782" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="5" x="1.905" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="6" x="0.635" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="7" x="-0.635" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
+<smd name="8" x="-1.905" y="3.3528" dx="0.6096" dy="2.2098" layer="1"/>
+<rectangle x1="-2.0828" y1="-3.6322" x2="-1.7272" y2="-2.6162" layer="51"/>
+<rectangle x1="-0.8128" y1="-3.6322" x2="-0.4572" y2="-2.6162" layer="51"/>
+<rectangle x1="0.4572" y1="-3.6322" x2="0.8128" y2="-2.6162" layer="51"/>
+<rectangle x1="1.7272" y1="-3.6322" x2="2.0828" y2="-2.6162" layer="51"/>
+<rectangle x1="-2.0828" y1="2.5908" x2="-1.7272" y2="3.6068" layer="51"/>
+<rectangle x1="-0.8128" y1="2.5908" x2="-0.4572" y2="3.6068" layer="51"/>
+<rectangle x1="0.4572" y1="2.5908" x2="0.8128" y2="3.6068" layer="51"/>
+<rectangle x1="1.7272" y1="2.5908" x2="2.0828" y2="3.6068" layer="51"/>
+<text x="-2.8575" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;NAME</text>
+<text x="3.4925" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;VALUE</text>
+<polygon width="0.002540625" layer="21">
+<vertex x="-2.69875" y="-3.01625" curve="90"/>
+<vertex x="-3.01625" y="-2.69875" curve="90"/>
+<vertex x="-3.33375" y="-3.01625" curve="90"/>
+<vertex x="-3.01625" y="-3.33375" curve="90"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="SO08" urn="urn:adsk.eagle:package:38840/1" type="box" library_version="1">
+<description>SOIC, 0.15 inch width</description>
+</package3d>
+<package3d name="SO08-EIAJ" urn="urn:adsk.eagle:package:38842/1" type="box" library_version="1">
+<description>Fits EIAJ packages (wide version of the SOIC-8).</description>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="EEPROM-I2C" urn="urn:adsk.eagle:symbol:38832/1" library_version="1">
+<wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="8.382" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VSS" x="-12.7" y="-2.54" length="middle" direction="pwr"/>
+<pin name="WP" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="VCC" x="12.7" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="SCL" x="12.7" y="0" length="middle" rot="R180"/>
+<pin name="SDA" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="A2" x="-12.7" y="0" length="middle"/>
+<pin name="A0" x="-12.7" y="5.08" length="middle"/>
+<pin name="A1" x="-12.7" y="2.54" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="EEPROM-I2C" urn="urn:adsk.eagle:component:38845/1" prefix="U" library_version="1">
+<description>&lt;h3&gt;I2C EEPROMs, 24LC256 and others&lt;/h3&gt;
+&lt;p&gt;24LC256 Series 256 kb I2C 2 Wire (32 k x 8 Bit) 2.5 V Serial EEPROM SMD - SOIC-8
+&lt;/p&gt;
+&lt;p&gt;&lt;a href=""&gt;Datasheet&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11703"&gt;SparkFun UDB5 - PIC UAV Development Board&lt;/a&gt; (GPS-11703)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="EEPROM-I2C" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SMD" package="SO08">
+<connects>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="WP" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38840/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="IC-09714" constant="no"/>
+<attribute name="VALUE" value="24LC256" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="EIAJ" package="SO08-EIAJ">
+<connects>
+<connect gate="G$1" pin="A0" pad="1"/>
+<connect gate="G$1" pin="A1" pad="2"/>
+<connect gate="G$1" pin="A2" pad="3"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="VCC" pad="8"/>
+<connect gate="G$1" pin="VSS" pad="4"/>
+<connect gate="G$1" pin="WP" pad="7"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:38842/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NA-XXXXX" constant="no"/>
+<attribute name="VALUE" value="I2C EEPROM" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5573,6 +5743,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="D2" library="minimote" deviceset="AZ23C3V6" device=""/>
 <part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:29919/2" technology="MMBT3904LT1"/>
 <part name="D3" library="minimote" deviceset="LED" device="3MM"/>
+<part name="U1" library="SparkFun-IC-Memory" library_urn="urn:adsk.eagle:library:524" deviceset="EEPROM-I2C" device="EIAJ" package3d_urn="urn:adsk.eagle:package:38842/1" value="I2C EEPROM"/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
+<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5647,6 +5820,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="D2" gate="D$1" x="81.28" y="68.58" rot="R180"/>
 <instance part="T1" gate="G$1" x="127" y="-22.86"/>
 <instance part="D3" gate="G$1" x="129.54" y="-10.16"/>
+<instance part="U1" gate="G$1" x="180.34" y="-17.78"/>
+<instance part="SUPPLY9" gate="G$1" x="193.04" y="-5.08"/>
+<instance part="GND9" gate="1" x="162.56" y="-22.86"/>
 </instances>
 <busses>
 </busses>
@@ -5700,6 +5876,23 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="GND8" gate="1" pin="GND"/>
 <pinref part="T1" gate="G$1" pin="E"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VSS"/>
+<pinref part="GND9" gate="1" pin="GND"/>
+<wire x1="167.64" y1="-20.32" x2="162.56" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="A2"/>
+<wire x1="162.56" y1="-20.32" x2="162.56" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-17.78" x2="167.64" y2="-17.78" width="0.1524" layer="91"/>
+<junction x="162.56" y="-20.32"/>
+<pinref part="U1" gate="G$1" pin="A1"/>
+<wire x1="162.56" y1="-17.78" x2="162.56" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-15.24" x2="167.64" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="162.56" y="-17.78"/>
+<pinref part="U1" gate="G$1" pin="A0"/>
+<wire x1="162.56" y1="-15.24" x2="162.56" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="162.56" y="-15.24"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -5733,12 +5926,25 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="SUPPLY7" gate="G$1" pin="VCC"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="VCC"/>
+<wire x1="193.04" y1="-12.7" x2="193.04" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
+</segment>
 </net>
 <net name="RST" class="0">
 <segment>
 <wire x1="25.4" y1="-15.24" x2="33.02" y2="-15.24" width="0.1524" layer="91"/>
 <label x="25.4" y="-15.24" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="5"/>
+</segment>
+<segment>
+<pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="IC1" gate="IC1" pin="(PCINT11/ADC9/RESET/DW)PB3"/>
+<wire x1="78.74" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
+<junction x="109.22" y="43.18"/>
+<label x="83.82" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -5833,6 +6039,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <label x="25.4" y="-12.7" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="3"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SCL"/>
+<wire x1="193.04" y1="-17.78" x2="208.28" y2="-17.78" width="0.1524" layer="91"/>
+<label x="200.66" y="-17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
@@ -5861,6 +6072,11 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="50.8" y1="-12.7" x2="58.42" y2="-12.7" width="0.1524" layer="91"/>
 <label x="53.34" y="-12.7" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="4"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SDA"/>
+<wire x1="193.04" y1="-20.32" x2="208.28" y2="-20.32" width="0.1524" layer="91"/>
+<label x="200.66" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="LED2" class="0">
@@ -6171,15 +6387,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="D3" gate="G$1" pin="A"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="S2" gate="G$1" pin="1"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="IC1" gate="IC1" pin="(PCINT11/ADC9/RESET/DW)PB3"/>
-<wire x1="78.74" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
-<junction x="109.22" y="43.18"/>
 </segment>
 </net>
 </nets>
