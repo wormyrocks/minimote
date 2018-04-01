@@ -1,6 +1,9 @@
+
 #include <avr/interrupt.h>
 #include <avr/io.h>
+//#include "HIDSerial.h"
 //#include <TinyWireM.h>
+
 #define PWR 5
 #define L1 8
 #define L2 7
@@ -11,7 +14,6 @@
 volatile u8 show_num = 0;
 volatile u8 show_num_ind = 0;
 u32 shdwn = 10000;
-
 ISR(TIMER1_COMPA_vect) {
   if (show_num && show_num < 32) {
     if (show_num & (0x10 >> show_num_ind)) showLED_(show_num_ind + 1);
