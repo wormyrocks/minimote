@@ -1348,6 +1348,9 @@ Based on the following sources:
 <packages3d>
 <package3d name="SOT23" urn="urn:adsk.eagle:package:43389/2" type="model" library_version="2">
 <description>DIODE</description>
+<packageinstances>
+<packageinstance name="SOT23"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -2373,8 +2376,7 @@ FRAME_LETTER</description>
 <circle x="0" y="-1.27" radius="5" width="0" layer="29"/>
 <smd name="1" x="5.08" y="3.81" dx="0.2032" dy="0.2032" layer="1" stop="no" cream="no"/>
 <smd name="2" x="5.08" y="-6.35" dx="0.2032" dy="0.2032" layer="1" stop="no" cream="no"/>
-<text x="-6.096" y="-1.27" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
-<text x="5.461" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+<text x="-5.588" y="-1.397" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
 <wire x1="-3.175" y1="3.81" x2="-1.905" y2="3.81" width="0.2032" layer="1"/>
 <wire x1="-1.905" y1="3.81" x2="-0.635" y2="3.81" width="0.2032" layer="1"/>
 <wire x1="-0.635" y1="3.81" x2="0.635" y2="3.81" width="0.2032" layer="1"/>
@@ -2729,7 +2731,7 @@ FRAME_LETTER</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUTTON_RESISTIVE">
+<deviceset name="BUTTON_RESISTIVE" prefix="B">
 <gates>
 <gate name="G$1" symbol="BUTTON-CONDUCTIVE" x="0" y="0"/>
 </gates>
@@ -4078,110 +4080,209 @@ http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
 </package>
 </packages>
 <packages3d>
+<package3d name="SOT23-BEC" urn="urn:adsk.eagle:package:29919/2" type="model" library_version="2">
+<description>TO-236 ITT Intermetall</description>
+<packageinstances>
+<packageinstance name="SOT23-BEC"/>
+</packageinstances>
+</package3d>
 <package3d name="TO3" urn="urn:adsk.eagle:package:29899/2" type="model" library_version="2">
 <description>TO-3</description>
+<packageinstances>
+<packageinstance name="TO3"/>
+</packageinstances>
 </package3d>
 <package3d name="TO18" urn="urn:adsk.eagle:package:29892/2" type="model" library_version="2">
 <description>TO 18</description>
+<packageinstances>
+<packageinstance name="TO18"/>
+</packageinstances>
 </package3d>
 <package3d name="TO18-" urn="urn:adsk.eagle:package:29903/1" type="box" library_version="2">
 <description>TO-18</description>
+<packageinstances>
+<packageinstance name="TO18-"/>
+</packageinstances>
 </package3d>
 <package3d name="TO202" urn="urn:adsk.eagle:package:29900/1" type="box" library_version="2">
 <description>TO 202 horizontal</description>
+<packageinstances>
+<packageinstance name="TO202"/>
+</packageinstances>
 </package3d>
 <package3d name="TO202V" urn="urn:adsk.eagle:package:29909/1" type="box" library_version="2">
 <description>TO 202 vertical</description>
+<packageinstances>
+<packageinstance name="TO202V"/>
+</packageinstances>
 </package3d>
 <package3d name="SOT93" urn="urn:adsk.eagle:package:29902/1" type="box" library_version="2">
 <description>SOT-93
 grid 5.45 mm</description>
+<packageinstances>
+<packageinstance name="SOT93"/>
+</packageinstances>
 </package3d>
 <package3d name="SOT93V" urn="urn:adsk.eagle:package:29910/1" type="box" library_version="2">
 <description>SOT-93
 grid 5.45 mm</description>
+<packageinstances>
+<packageinstance name="SOT93V"/>
+</packageinstances>
 </package3d>
 <package3d name="TO126" urn="urn:adsk.eagle:package:29898/1" type="box" library_version="2">
 <description>TO 126 horizontal</description>
+<packageinstances>
+<packageinstance name="TO126"/>
+</packageinstances>
 </package3d>
 <package3d name="TO126V" urn="urn:adsk.eagle:package:29912/1" type="box" library_version="2">
 <description>TO 126 vertical</description>
+<packageinstances>
+<packageinstance name="TO126V"/>
+</packageinstances>
 </package3d>
 <package3d name="TO218" urn="urn:adsk.eagle:package:29911/1" type="box" library_version="2">
 <description>TO 218 horizontal</description>
+<packageinstances>
+<packageinstance name="TO218"/>
+</packageinstances>
 </package3d>
 <package3d name="TO218V" urn="urn:adsk.eagle:package:29913/1" type="box" library_version="2">
 <description>TO 218 vertical</description>
+<packageinstances>
+<packageinstance name="TO218V"/>
+</packageinstances>
 </package3d>
 <package3d name="TO220" urn="urn:adsk.eagle:package:29897/1" type="box" library_version="2">
 <description>TO 220 horizontal</description>
+<packageinstances>
+<packageinstance name="TO220"/>
+</packageinstances>
 </package3d>
 <package3d name="TO220V" urn="urn:adsk.eagle:package:29914/2" type="model" library_version="2">
 <description>TO 220 vertical</description>
+<packageinstances>
+<packageinstance name="TO220V"/>
+</packageinstances>
 </package3d>
 <package3d name="TO225AA" urn="urn:adsk.eagle:package:29905/1" type="box" library_version="2">
 <description>TO-225
 grid 2.54 mm, vertical</description>
+<packageinstances>
+<packageinstance name="TO225AA"/>
+</packageinstances>
 </package3d>
 <package3d name="TO39" urn="urn:adsk.eagle:package:29896/1" type="box" library_version="2">
 <description>TO-39</description>
+<packageinstances>
+<packageinstance name="TO39"/>
+</packageinstances>
 </package3d>
 <package3d name="TO5" urn="urn:adsk.eagle:package:29895/1" type="box" library_version="2">
 <description>TO 5</description>
+<packageinstances>
+<packageinstance name="TO5"/>
+</packageinstances>
 </package3d>
 <package3d name="TO66" urn="urn:adsk.eagle:package:29894/1" type="box" library_version="2">
 <description>TO-66</description>
+<packageinstances>
+<packageinstance name="TO66"/>
+</packageinstances>
 </package3d>
 <package3d name="TO92" urn="urn:adsk.eagle:package:29893/2" type="model" library_version="2">
 <description>TO 92</description>
+<packageinstances>
+<packageinstance name="TO92"/>
+</packageinstances>
 </package3d>
 <package3d name="TO92-EBC" urn="urn:adsk.eagle:package:29915/2" type="model" library_version="2">
 <description>TO-92 Pads In Line E B C from top</description>
+<packageinstances>
+<packageinstance name="TO92-EBC"/>
+</packageinstances>
 </package3d>
 <package3d name="TO92-E1" urn="urn:adsk.eagle:package:29916/2" type="model" library_version="2">
 <description>TO-92 Pads Triangle Reverse</description>
+<packageinstances>
+<packageinstance name="TO92-E1"/>
+</packageinstances>
 </package3d>
 <package3d name="TO92L" urn="urn:adsk.eagle:package:29918/1" type="box" library_version="2">
 <description>TO-92
 grid 5.08 mm</description>
+<packageinstances>
+<packageinstance name="TO92L"/>
+</packageinstances>
 </package3d>
 <package3d name="TOP3" urn="urn:adsk.eagle:package:29907/1" type="box" library_version="2">
 <description>TOP 3 horizontal</description>
+<packageinstances>
+<packageinstance name="TOP3"/>
+</packageinstances>
 </package3d>
 <package3d name="TOP3V" urn="urn:adsk.eagle:package:29917/1" type="box" library_version="2">
 <description>TOP 3 vertical</description>
-</package3d>
-<package3d name="SOT23-BEC" urn="urn:adsk.eagle:package:29919/2" type="model" library_version="2">
-<description>TO-236 ITT Intermetall</description>
+<packageinstances>
+<packageinstance name="TOP3V"/>
+</packageinstances>
 </package3d>
 <package3d name="SOT23-EBC" urn="urn:adsk.eagle:package:29920/2" type="model" library_version="2">
 <description>SOT-23 (EBC)</description>
+<packageinstances>
+<packageinstance name="SOT23-EBC"/>
+</packageinstances>
 </package3d>
 <package3d name="TO92-BCE" urn="urn:adsk.eagle:package:29924/2" type="model" library_version="2">
 <description>TO-92 Pads In Line B C E from top</description>
+<packageinstances>
+<packageinstance name="TO92-BCE"/>
+</packageinstances>
 </package3d>
 <package3d name="TO92-CBE" urn="urn:adsk.eagle:package:29921/2" type="model" library_version="2">
 <description>TO-92 Pads In Line  C B E from top</description>
+<packageinstances>
+<packageinstance name="TO92-CBE"/>
+</packageinstances>
 </package3d>
 <package3d name="TO92-BEC" urn="urn:adsk.eagle:package:29922/2" type="model" library_version="2">
 <description>TO-92 Pads In Line  B E C from top</description>
+<packageinstances>
+<packageinstance name="TO92-BEC"/>
+</packageinstances>
 </package3d>
 <package3d name="TO92-CEB" urn="urn:adsk.eagle:package:29923/2" type="model" library_version="2">
 <description>TO-92 Pads In Line C E B from top</description>
+<packageinstances>
+<packageinstance name="TO92-CEB"/>
+</packageinstances>
 </package3d>
 <package3d name="SC59-BEC" urn="urn:adsk.eagle:package:29926/2" type="model" library_version="2">
 <description>SC59 (SOT23) Motorola</description>
+<packageinstances>
+<packageinstance name="SC59-BEC"/>
+</packageinstances>
 </package3d>
 <package3d name="SOT89-BCE" urn="urn:adsk.eagle:package:29925/1" type="box" library_version="2">
 <description>SOT89 Basis Collector Emitter</description>
+<packageinstances>
+<packageinstance name="SOT89-BCE"/>
+</packageinstances>
 </package3d>
 <package3d name="SOT37" urn="urn:adsk.eagle:package:29927/1" type="box" library_version="2">
 <description>SOT-37
 Motorola CASE 317A-01 ISSUE B
 http://www.ee.siue.edu/~alozows/library/datasheets/BFR96.pdf</description>
+<packageinstances>
+<packageinstance name="SOT37"/>
+</packageinstances>
 </package3d>
 <package3d name="TO92-ECB" urn="urn:adsk.eagle:package:29929/2" type="model" library_version="2">
 <description>TO-92 Pads In Line E C B from top</description>
+<packageinstances>
+<packageinstance name="TO92-ECB"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -5081,9 +5182,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R8" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="330"/>
 <part name="R7" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="4k7"/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
+<part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
 <part name="D6" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
 <part name="D7" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
-<part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
 <part name="S2" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" package3d_urn="urn:adsk.eagle:package:40167/1"/>
 <part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="BAT54C" device="" package3d_urn="urn:adsk.eagle:package:43389/2"/>
 <part name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AVR_SPI_PROG_3X2" device="PTH" package3d_urn="urn:adsk.eagle:package:38016/1"/>
@@ -5103,8 +5204,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="22k"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="51k"/>
 <part name="S1" library="SparkFun-Switches" library_urn="urn:adsk.eagle:library:535" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2-REDUNDANT" package3d_urn="urn:adsk.eagle:package:40167/1"/>
-<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10uF"/>
-<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100nF"/>
+<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10u"/>
+<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:37414/1" value="100n"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="RN1" library="resistor-array" deviceset="742-16" device="NS" value="10k"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
@@ -5116,7 +5217,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D8" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-BLUE" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="BLUE"/>
 <part name="J2" library="minimote" deviceset="EDGEUSB" device=""/>
 <part name="D2" library="minimote" deviceset="AZ23C3V6" device=""/>
-<part name="T1" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:29919/2" technology="MMBT3904LT1"/>
+<part name="Q3" library="transistor" library_urn="urn:adsk.eagle:library:402" deviceset="*-NPN-" device="SOT23-BEC" package3d_urn="urn:adsk.eagle:package:29919/2" technology="MMBT3904LT1" value="2N3904"/>
 <part name="D3" library="minimote" deviceset="LED" device="3MM"/>
 <part name="U1" library="SparkFun-IC-Memory" library_urn="urn:adsk.eagle:library:524" deviceset="EEPROM-I2C" device="EIAJ" package3d_urn="urn:adsk.eagle:package:38842/1" value="M24Cxx"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
@@ -5125,17 +5226,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R14" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device=""/>
 <part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="100k"/>
-<part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.22OHM" device="-0805-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="22"/>
+<part name="R12" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.22OHM" device="-0805-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="22 (0805)"/>
 <part name="U$1" library="minimote" deviceset="BAT_AND_USB" device=""/>
 <part name="R16" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="3.3KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="22M"/>
-<part name="U$2" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
-<part name="U$3" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
-<part name="U$4" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
-<part name="U$5" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
-<part name="U$6" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
-<part name="U$7" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
-<part name="U$8" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
-<part name="U$9" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
+<part name="B7" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
+<part name="B8" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
+<part name="B6" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
+<part name="B5" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
+<part name="B4" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
+<part name="B3" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
+<part name="B1" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
+<part name="B2" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1"/>
@@ -5154,9 +5255,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R8" gate="G$1" x="119.38" y="-22.86"/>
 <instance part="R7" gate="G$1" x="109.22" y="48.26" rot="R90"/>
 <instance part="D4" gate="G$1" x="137.16" y="30.48"/>
-<instance part="D6" gate="G$1" x="147.32" y="27.94" rot="R180"/>
-<instance part="D7" gate="G$1" x="147.32" y="20.32"/>
-<instance part="D5" gate="G$1" x="137.16" y="17.78" rot="R180"/>
+<instance part="D5" gate="G$1" x="147.32" y="27.94" rot="R180"/>
+<instance part="D6" gate="G$1" x="147.32" y="20.32"/>
+<instance part="D7" gate="G$1" x="137.16" y="17.78" rot="R180"/>
 <instance part="S2" gate="G$1" x="109.22" y="38.1" smashed="yes" rot="R270">
 <attribute name="NAME" x="110.744" y="38.1" size="1.778" layer="95" font="vector" rot="R270" align="bottom-center"/>
 </instance>
@@ -5200,7 +5301,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="D8" gate="G$1" x="160.02" y="22.86" rot="R180"/>
 <instance part="J2" gate="J$1" x="116.84" y="73.66"/>
 <instance part="D2" gate="D$1" x="88.9" y="68.58" rot="R180"/>
-<instance part="T1" gate="G$1" x="127" y="-22.86"/>
+<instance part="Q3" gate="G$1" x="127" y="-22.86"/>
 <instance part="D3" gate="G$1" x="129.54" y="-10.16"/>
 <instance part="U1" gate="G$1" x="180.34" y="-17.78"/>
 <instance part="SUPPLY9" gate="G$1" x="193.04" y="-5.08"/>
@@ -5212,14 +5313,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R12" gate="G$1" x="129.54" y="-2.54" rot="R90"/>
 <instance part="U$1" gate="G$1" x="-17.78" y="30.48" rot="R270"/>
 <instance part="R16" gate="G$1" x="142.24" y="86.36" rot="R180"/>
-<instance part="U$2" gate="G$1" x="193.04" y="83.82" rot="R180"/>
-<instance part="U$3" gate="G$1" x="223.52" y="73.66"/>
-<instance part="U$4" gate="G$1" x="193.04" y="63.5" rot="R180"/>
-<instance part="U$5" gate="G$1" x="223.52" y="53.34"/>
-<instance part="U$6" gate="G$1" x="193.04" y="43.18" rot="R180"/>
-<instance part="U$7" gate="G$1" x="223.52" y="33.02"/>
-<instance part="U$8" gate="G$1" x="193.04" y="22.86" rot="R180"/>
-<instance part="U$9" gate="G$1" x="223.52" y="12.7"/>
+<instance part="B7" gate="G$1" x="193.04" y="83.82" rot="R180"/>
+<instance part="B8" gate="G$1" x="223.52" y="73.66"/>
+<instance part="B6" gate="G$1" x="193.04" y="63.5" rot="R180"/>
+<instance part="B5" gate="G$1" x="223.52" y="53.34"/>
+<instance part="B4" gate="G$1" x="193.04" y="43.18" rot="R180"/>
+<instance part="B3" gate="G$1" x="223.52" y="33.02"/>
+<instance part="B1" gate="G$1" x="193.04" y="22.86" rot="R180"/>
+<instance part="B2" gate="G$1" x="223.52" y="12.7"/>
 <instance part="GND10" gate="1" x="127" y="50.8"/>
 <instance part="GND11" gate="1" x="210.82" y="81.28"/>
 <instance part="PAD1" gate="1" x="109.22" y="20.32" rot="R180"/>
@@ -5278,7 +5379,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="T1" gate="G$1" pin="E"/>
+<pinref part="Q3" gate="G$1" pin="E"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VSS"/>
@@ -5303,7 +5404,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="127" y1="53.34" x2="142.24" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="1"/>
+<pinref part="B7" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
@@ -5540,7 +5641,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$2" class="0">
 <segment>
 <wire x1="129.54" y1="-17.78" x2="129.54" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="C"/>
+<pinref part="Q3" gate="G$1" pin="C"/>
 <pinref part="D3" gate="G$1" pin="C"/>
 </segment>
 </net>
@@ -5608,7 +5709,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="200.66" y1="43.18" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
 <label x="205.74" y="43.18" size="1.778" layer="95"/>
-<pinref part="U$6" gate="G$1" pin="1"/>
+<pinref part="B4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="63.5" x2="142.24" y2="63.5" width="0.1524" layer="91"/>
@@ -5625,7 +5726,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="215.9" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
 <label x="205.74" y="73.66" size="1.778" layer="95"/>
-<pinref part="U$3" gate="G$1" pin="1"/>
+<pinref part="B8" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="RN1" gate="G$1" pin="16"/>
@@ -5645,30 +5746,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="83.82" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="2"/>
+<pinref part="B7" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="86.36" x2="185.42" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="86.36" x2="185.42" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="2"/>
+<pinref part="B6" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="83.82" x2="185.42" y2="63.5" width="0.1524" layer="91"/>
 <junction x="185.42" y="83.82"/>
-<pinref part="U$6" gate="G$1" pin="2"/>
+<pinref part="B4" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="63.5" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
 <junction x="185.42" y="63.5"/>
-<pinref part="U$8" gate="G$1" pin="2"/>
+<pinref part="B1" gate="G$1" pin="2"/>
 <wire x1="185.42" y1="43.18" x2="185.42" y2="22.86" width="0.1524" layer="91"/>
 <junction x="185.42" y="43.18"/>
-<pinref part="U$9" gate="G$1" pin="2"/>
+<pinref part="B2" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="12.7" x2="231.14" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="2.54" x2="185.42" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="2.54" x2="185.42" y2="22.86" width="0.1524" layer="91"/>
 <junction x="185.42" y="22.86"/>
-<pinref part="U$7" gate="G$1" pin="2"/>
+<pinref part="B3" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="12.7" x2="231.14" y2="33.02" width="0.1524" layer="91"/>
 <junction x="231.14" y="12.7"/>
-<pinref part="U$5" gate="G$1" pin="2"/>
+<pinref part="B5" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="33.02" x2="231.14" y2="53.34" width="0.1524" layer="91"/>
 <junction x="231.14" y="33.02"/>
-<pinref part="U$3" gate="G$1" pin="2"/>
+<pinref part="B8" gate="G$1" pin="2"/>
 <wire x1="231.14" y1="53.34" x2="231.14" y2="73.66" width="0.1524" layer="91"/>
 <junction x="231.14" y="53.34"/>
 <label x="165.1" y="86.36" size="1.778" layer="95"/>
@@ -5679,7 +5780,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="200.66" y1="63.5" x2="205.74" y2="63.5" width="0.1524" layer="91"/>
 <label x="205.74" y="63.5" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="1"/>
+<pinref part="B6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="68.58" x2="142.24" y2="68.58" width="0.1524" layer="91"/>
@@ -5696,7 +5797,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="215.9" y1="53.34" x2="205.74" y2="53.34" width="0.1524" layer="91"/>
 <label x="205.74" y="53.34" size="1.778" layer="95"/>
-<pinref part="U$5" gate="G$1" pin="1"/>
+<pinref part="B5" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="66.04" x2="160.02" y2="66.04" width="0.1524" layer="91"/>
@@ -5713,7 +5814,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="215.9" y1="33.02" x2="205.74" y2="33.02" width="0.1524" layer="91"/>
 <label x="205.74" y="33.02" size="1.778" layer="95"/>
-<pinref part="U$7" gate="G$1" pin="1"/>
+<pinref part="B3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="60.96" x2="160.02" y2="60.96" width="0.1524" layer="91"/>
@@ -5730,7 +5831,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="200.66" y1="22.86" x2="205.74" y2="22.86" width="0.1524" layer="91"/>
 <label x="205.74" y="22.86" size="1.778" layer="95"/>
-<pinref part="U$8" gate="G$1" pin="1"/>
+<pinref part="B1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="139.7" y1="58.42" x2="142.24" y2="58.42" width="0.1524" layer="91"/>
@@ -5747,7 +5848,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="215.9" y1="12.7" x2="205.74" y2="12.7" width="0.1524" layer="91"/>
 <label x="205.74" y="12.7" size="1.778" layer="95"/>
-<pinref part="U$9" gate="G$1" pin="1"/>
+<pinref part="B2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="55.88" x2="160.02" y2="55.88" width="0.1524" layer="91"/>
@@ -5762,10 +5863,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$123" class="0">
 <segment>
-<pinref part="D5" gate="G$1" pin="A"/>
+<pinref part="D7" gate="G$1" pin="A"/>
 <wire x1="134.62" y1="15.24" x2="137.16" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="2"/>
-<pinref part="D7" gate="G$1" pin="C"/>
+<pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="147.32" y1="15.24" x2="137.16" y2="15.24" width="0.1524" layer="91"/>
 <junction x="137.16" y="15.24"/>
 <pinref part="D8" gate="G$1" pin="A"/>
@@ -5782,12 +5883,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="D4" gate="G$1" pin="C"/>
 <wire x1="137.16" y1="25.4" x2="134.62" y2="25.4" width="0.1524" layer="91"/>
 <junction x="137.16" y="25.4"/>
-<pinref part="D5" gate="G$1" pin="C"/>
+<pinref part="D7" gate="G$1" pin="C"/>
 <pinref part="R10" gate="G$1" pin="2"/>
-<pinref part="D6" gate="G$1" pin="A"/>
+<pinref part="D5" gate="G$1" pin="A"/>
 <wire x1="142.24" y1="25.4" x2="147.32" y2="25.4" width="0.1524" layer="91"/>
 <junction x="142.24" y="25.4"/>
-<pinref part="D7" gate="G$1" pin="A"/>
+<pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="147.32" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
 <junction x="142.24" y="22.86"/>
 </segment>
@@ -5797,7 +5898,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="134.62" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="147.32" y1="33.02" x2="137.16" y2="33.02" width="0.1524" layer="91"/>
 <junction x="137.16" y="33.02"/>
 <wire x1="147.32" y1="33.02" x2="160.02" y2="33.02" width="0.1524" layer="91"/>
@@ -5809,7 +5910,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$3" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="T1" gate="G$1" pin="B"/>
+<pinref part="Q3" gate="G$1" pin="B"/>
 </segment>
 </net>
 <net name="N$9" class="0">
