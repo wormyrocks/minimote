@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.3">
+<eagle version="8.7.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2277,7 +2277,6 @@ FRAME_LETTER</description>
 <text x="0" y="-1.27" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
 </package>
 <package name="PUNCHOUT_USB">
-<wire x1="-3" y1="-5" x2="15" y2="-5" width="0.127" layer="20"/>
 <wire x1="0" y1="13.3" x2="0" y2="-2" width="0.127" layer="20"/>
 <wire x1="0" y1="-2" x2="-1" y2="-2" width="0.127" layer="20"/>
 <wire x1="14" y1="-2" x2="12.065" y2="-2" width="0.127" layer="20"/>
@@ -2304,32 +2303,15 @@ FRAME_LETTER</description>
 <rectangle x1="4.3175" y1="-1.5" x2="5.5875" y2="4.5" layer="1"/>
 <wire x1="13.1" y1="14.2" x2="13.1" y2="9.4" width="0.127" layer="20"/>
 <wire x1="5.3" y1="14.2" x2="-1" y2="14.2" width="0.127" layer="20"/>
-<wire x1="-3" y1="-5" x2="-3" y2="-6" width="0.127" layer="20"/>
-<wire x1="-3" y1="-6" x2="-1.1" y2="-6" width="0.127" layer="20"/>
-<wire x1="13.1" y1="-6" x2="15" y2="-6" width="0.127" layer="20"/>
 <smd name="B-" x="2.3" y="16.7" dx="3" dy="5" layer="1"/>
 <smd name="B+" x="9.75" y="16.7" dx="3" dy="5" layer="1"/>
 <circle x="2.2" y="-1.5" radius="1.6" width="0" layer="30"/>
 <circle x="3.9305" y="-1.5" radius="1.6" width="0" layer="29"/>
 <circle x="9.82" y="-1.5" radius="1.6" width="0" layer="30"/>
 <circle x="8.0895" y="-1.5" radius="1.6" width="0" layer="29"/>
-<wire x1="6" y1="-8.8" x2="-1.1" y2="-6" width="0.127" layer="20" curve="-42.678469"/>
 <wire x1="-3" y1="-3.7" x2="-1" y2="9.5" width="0.127" layer="20" curve="-79.057815"/>
 <wire x1="13.1" y1="9.4" x2="15" y2="-3.7" width="0.127" layer="20" curve="-78.285287"/>
-<wire x1="13.1" y1="-6" x2="6" y2="-8.8" width="0.127" layer="20" curve="-42.678469"/>
 <wire x1="14" y1="-2" x2="14" y2="-3.7" width="0.127" layer="20"/>
-<wire x1="14" y1="-3.7" x2="15" y2="-3.7" width="0.127" layer="20"/>
-<wire x1="15" y1="-5" x2="15" y2="-6" width="0.127" layer="20"/>
-<wire x1="-3" y1="-3.7" x2="-2" y2="-3.7" width="0.127" layer="20"/>
-<wire x1="-2" y1="-3.7" x2="-2" y2="-2" width="0.127" layer="20"/>
-<hole x="-2.3" y="-4.6" drill="0.254"/>
-<hole x="-2.3" y="-4.1" drill="0.254"/>
-<hole x="-2.8" y="-4.6" drill="0.254"/>
-<hole x="-2.8" y="-4.1" drill="0.254"/>
-<hole x="14.2" y="-4.6" drill="0.254"/>
-<hole x="14.2" y="-4.1" drill="0.254"/>
-<hole x="14.7" y="-4.1" drill="0.254"/>
-<hole x="14.7" y="-4.6" drill="0.254"/>
 <hole x="5.7" y="14" drill="0.254"/>
 <hole x="5.7" y="13.5" drill="0.254"/>
 <wire x1="12.065" y1="-2" x2="12.065" y2="13.3" width="0.127" layer="20"/>
@@ -2340,9 +2322,34 @@ FRAME_LETTER</description>
 <wire x1="6.6" y1="13.3" x2="12.065" y2="13.3" width="0.127" layer="20"/>
 <hole x="6.2" y="14" drill="0.254"/>
 <hole x="6.2" y="13.5" drill="0.254"/>
-<wire x1="-2" y1="-2" x2="-2" y2="0" width="0.127" layer="20"/>
+<wire x1="-2" y1="-3.7" x2="-2" y2="0" width="0.127" layer="20"/>
 <wire x1="-2" y1="0" x2="-1" y2="0" width="0.127" layer="20"/>
 <wire x1="-1" y1="0" x2="-1" y2="-2" width="0.127" layer="20"/>
+<wire x1="-1.1" y1="-6" x2="-3" y2="-3.7" width="0.127" layer="20" curve="-16.345042"/>
+<wire x1="5.5" y1="-5" x2="0" y2="-5" width="0.127" layer="20"/>
+<wire x1="0" y1="-5" x2="-2" y2="-3.7" width="0.127" layer="20"/>
+<wire x1="14" y1="-3.7" x2="12" y2="-5" width="0.127" layer="20"/>
+<wire x1="6.7" y1="-8.8" x2="6.7" y2="-5" width="0.127" layer="20"/>
+<wire x1="5.5" y1="-8.8" x2="5.5" y2="-5" width="0.127" layer="20"/>
+<wire x1="6.7" y1="-5" x2="12" y2="-5" width="0.127" layer="20"/>
+<wire x1="15" y1="-3.7" x2="6.7" y2="-8.8" width="0.127" layer="20" curve="-56.309932"/>
+<wire x1="5.5" y1="-8.8" x2="-1.1" y2="-6" width="0.127" layer="20" curve="-40.196935"/>
+<hole x="5.8" y="-5.2" drill="0.254"/>
+<hole x="5.8" y="-6.2" drill="0.254"/>
+<hole x="6.4" y="-5.7" drill="0.254"/>
+<hole x="5.8" y="-5.7" drill="0.254"/>
+<hole x="6.4" y="-5.2" drill="0.254"/>
+<hole x="6.4" y="-6.2" drill="0.254"/>
+<hole x="5.8" y="-6.7" drill="0.254"/>
+<hole x="6.4" y="-6.7" drill="0.254"/>
+<hole x="5.8" y="-7.2" drill="0.254"/>
+<hole x="6.4" y="-7.2" drill="0.254"/>
+<hole x="6.4" y="-7.7" drill="0.254"/>
+<hole x="5.8" y="-7.7" drill="0.254"/>
+<hole x="5.8" y="-8.2" drill="0.254"/>
+<hole x="6.4" y="-8.2" drill="0.254"/>
+<hole x="5.8" y="-8.7" drill="0.254"/>
+<hole x="6.4" y="-8.7" drill="0.254"/>
 </package>
 <package name="BUTTON-CONDUCTIVE">
 <description>&lt;h3&gt;Conductive Button&lt;/h3&gt;
@@ -4996,6 +5003,65 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad" urn="urn:adsk.eagle:library:412">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,15/1,0" urn="urn:adsk.eagle:footprint:30813/1" library_version="1">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.143" y1="-1.143" x2="1.143" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-1.143" x2="0.635" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0.635" x2="1.143" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="1.143" x2="0.635" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.143" x2="-1.143" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-0.635" x2="-1.143" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-1.143" x2="-0.635" y2="-1.143" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.016" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.159" shape="octagon"/>
+<text x="-1.143" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="2,15/1,0" urn="urn:adsk.eagle:package:30831/1" type="box" library_version="1">
+<description>THROUGH-HOLE PAD</description>
+<packageinstances>
+<packageinstance name="2,15/1,0"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="PAD" urn="urn:adsk.eagle:symbol:30808/1" library_version="1">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="2,15/1,0" urn="urn:adsk.eagle:component:30850/1" prefix="PAD" uservalue="yes" library_version="1">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2,15/1,0">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30831/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5072,6 +5138,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U$9" library="minimote" deviceset="BUTTON_RESISTIVE" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="2,15/1,0" device="" package3d_urn="urn:adsk.eagle:package:30831/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -5155,6 +5222,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U$9" gate="G$1" x="223.52" y="12.7"/>
 <instance part="GND10" gate="1" x="127" y="50.8"/>
 <instance part="GND11" gate="1" x="210.82" y="81.28"/>
+<instance part="PAD1" gate="1" x="109.22" y="20.32" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -5346,8 +5414,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="PA1" class="0">
 <segment>
 <pinref part="IC1" gate="IC1" pin="(PCINT1/ADC1/AIN00/TOCC0/TXD0/MOSI)PA1"/>
-<wire x1="78.74" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="27.94" x2="104.14" y2="27.94" width="0.1524" layer="91"/>
 <label x="83.82" y="27.94" size="1.778" layer="95"/>
+<wire x1="104.14" y1="27.94" x2="104.14" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="PAD1" gate="1" pin="P"/>
+<wire x1="104.14" y1="20.32" x2="106.68" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LED4" class="0">
